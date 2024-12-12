@@ -4,10 +4,11 @@ from telegram.ext import Application, MessageHandler, filters, CallbackContext
 from collections import defaultdict
 
 # 设置 OpenAI API 密钥
-openai.api_key = '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'
+openai.api_key = '你的OpenAI密钥'
 
-# Telegram 机器人 Token
-TELEGRAM_TOKEN = '7013947240:AAHx4fM4_4gXLGGSKpcXKMwiXdjW-8t8fy0'
+# Telegram 机器人 Tokengit add .
+
+TELEGRAM_TOKEN = 'OPENAI_API_KEY'
 
 # 用来保存每个用户的对话历史
 user_contexts = defaultdict(list)
